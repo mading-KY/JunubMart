@@ -62,15 +62,17 @@ The platform is an e-commerce marketplace tailored for South Sudan, allowing use
 
 ---
 
-## Project Structure
+## Project Architecture
 
-- `core` – Shared pages and common functionality.
-- `marketplace` – Products and marketplace features.
-- `accounts` – Authentication and user profiles.
-- `rentals` – Rental property listings.
-- `orders` – Shopping cart and order management.
+JunubMart follows Django's modular application architecture.
 
----
+- **junubmart/** (Project Configuration): Contains global settings, URL routing, and deployment configuration.
+- **core/**: Shared pages and common site functionality.
+- **marketplace/**: Product listings and marketplace features.
+- **accounts/**: User authentication and profile management.
+- **rentals/**: Rental property management.
+- **orders/**: Shopping cart and order processing.
+- **static/**: Global static assets shared across the project.
 
 ## Current Status
 
